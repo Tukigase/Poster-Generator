@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ff6565;
+}
+textarea{
+    width: 50%;
+    aspect-ratio: 3/1;
+    display: block;
+    margin: 20px auto;
+}

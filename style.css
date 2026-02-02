@@ -1,11 +1,47 @@
 h1{
     text-align: center;
     margin: 0 auto;
-    background-color: #ff6565;
+    background-color: #a1a1a1;
+    font-weight: bold;
 }
-textarea{
+#mainArea{
+    display: flex;
+    justify-content: center;
+}
+#inputArea{
     width: 50%;
-    aspect-ratio: 3/1;
+}
+#inputArea h2{
+    text-align: center;
+    margin: 10px auto;
+}
+.codeArea{
     display: block;
+    width: 80%;
+    aspect-ratio: 5/2;
     margin: 20px auto;
+    resize: vertical;
+}
+#codeBtn{
+    display: block;
+    width: fit-content;
+    height: 40px;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+#previewAreaContainer{
+    width: 50%;
+    border-left: 2px solid #000;
+}
+#previewAreaContainer h2{
+    text-align: center;
+    margin: 10px auto;
+}
+#previewArea{
+    overflow: hidden;
+    max-height: 80vh;
+    aspect-ratio: 1/1.4141;
+    margin: 20px auto;
+    border: 1px solid #000;
 }

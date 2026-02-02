@@ -15,6 +15,12 @@ htmlBtn.addEventListener('click', () => {
     // サニタイズ済みのHTMLオブジェクトにスタイルを追加
     resultHtmlObject.body.insertAdjacentHTML('beforeend', `
         <style>
+            :host {
+                box-sizing: border-box;
+                display: block;
+                overflow: hidden;
+                word-wrap: break-word;
+            }
             ${modifiedCssText}
         </style>
     `);

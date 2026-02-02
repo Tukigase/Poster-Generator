@@ -11,10 +11,19 @@
 <body>
     <h1>第1弾プロトタイプ　Poster Generator</h1>
 
-    <textarea name="htmlArea" id="htmlArea" placeholder="htmlを入力してください..."></textarea><br>
-    <textarea name="cssArea" id="cssArea" placeholder="cssを入力してください..."></textarea>
-    <button id="codeBtn">コードを反映</button><br>
-    <div id="previewArea"></div>
+    <section id="mainArea">
+        <div id="inputArea">
+            <h2>入力エリア</h2>
+            <textarea name="htmlArea" class="codeArea" id="htmlArea" placeholder="htmlを入力してください..."></textarea><br>
+            <textarea name="cssArea" class="codeArea" id="cssArea" placeholder="cssを入力してください..."></textarea>
+            <button id="codeBtn">コードを反映</button><br>
+        </div>
+
+        <div id="previewAreaContainer">
+            <h2>プレビューエリア</h2>
+            <div id="previewArea"></div>
+        </div>
+    </section>
 
 </body>
 <script src="script.js"></script>
